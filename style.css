@@ -1,0 +1,122 @@
+body {
+    background-color: peachpuff;
+}
+
+#text {
+    color: red;
+    position: absolute;
+    top: 130px;
+    left: 230px;
+}
+
+#comment {
+    color: yellow;
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    visibility: hidden;
+}
+
+
+
+button {
+    font-size: 25px;
+    background-color: aquamarine;
+}
+
+#missButton {
+    top: 0px;
+    left: 0px;
+    width: 600px;
+    height: 600px;
+    background-color: black;
+}
+
+#normalButton {
+    position: absolute;
+    top: 200px;
+    left: 260px;
+    width: 100px;
+    height: 50px;
+}
+
+#hardButton {
+    position: absolute;
+    top: 260px;
+    left: 260px;
+    width: 100px;
+    height: 50px;
+}
+
+#normalTarget {
+    border-radius: 50%;
+    background-color: black;
+    background-image: url("mato.png");
+    background-size: 100%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+}
+
+#hardTarget {
+    border-radius: 50%;
+    background-color: black;
+    background-image: url("mato.png");
+    background-size: 100%;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    visibility: hidden;
+}
+
+.info {
+    color: blue;
+    position: absolute;
+    top: 0px;
+    left: 650px;
+}
+
+#title {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#sub {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#resetButton {
+    position: absolute;
+    top: 370px;
+    left: 650px;
+    width: 200px;
+    height: 50px;
+}
+
+.result {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    width: 440px;
+    border: 10px ridge yellow;
+}
+
+#sq {
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    background-color: floralwhite;
+    border: dashed red;
+    top: 440px;
+    left: 660px;
+}
+
+.dev {
+    position: absolute;
+    top: 450px;
+    left: 670px;
+}
