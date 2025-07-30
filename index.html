@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <title>マウストレーニング</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <button id="missButton" onclick="misscount()"></button>
+
+  <button id="normalButton" onclick="modeSelect('normal');">normal</button>
+
+  <button id="hardButton" onclick="modeSelect('hard')">hard</button>
+
+  <button id="normalTarget" onclick="targetShoot('normal')"></button>
+
+  <button id="hardTarget" onclick="targetShoot('hard')"></button>
+
+  <h1 id="text">難易度選択</h1>
+
+  <h1 id="comment">ハイスコア更新！おめでとう🎉🎉</h1>
+
+  <div class="info">
+    <div id="title">マウストレーニング</div>
+    <div id="sub">10個の的をクリックする正確性と<br />スピードで採点されます</div>
+  </div>
+  
+  <div class="result">
+    <div id="lastResult">前回スコア：</div>
+    <div id="normalMaxResult">最大スコア(normal)：</div>
+    <div id="hardMaxResult">最大スコア(hard)：</div>
+  </div>
+
+  <button id="resetButton" onclick="reset()">リセットボタン</button>
+
+  <div id="sq"></div>
+  <div class="dev">開発確認window
+    <div id="randomNumber1">(X座標)</div>
+    <div id="randomNumber2">(Y座標)</div>
+    <div id="count">(ショット)</div>
+    <div id="misscount">(ミスショット)</div>
+    <div id="PassageArea">(スコアカウント)</div>
+  </div>
+
+</body>
+
+
+</html>
